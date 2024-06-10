@@ -4,7 +4,7 @@ import pandas as pd
 def get_comments(video_id):
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyByG-PvfH5Bl2zOAwpnIu9OGId63Ol_yhU"
+    DEVELOPER_KEY = "Add here Your API Key"
 
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey=DEVELOPER_KEY)
